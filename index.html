@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Free youtube to MP3 or MP4">
+  <meta name="keywords" content="Youtube, Youtube converter, Youtube to mp3, Youtube to mp4">
+  <meta name="author" content="Anargya Prima Anubhawa">
+  <meta name="theme-color" content="#ffffff" />
+  <title>Youtube Converter By Anargya</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <nav>
+<span class="logo">
+      Youtube Converter
+    </span>
+    <div class="menu">
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+        <li id="profile"><a href="https://github.com/anargya-anubhawa/ytconverter" target="blank">Github</a></li>
+        <li id="youtube"><a href="https://bit.ly/anargyayoutube">YouTube</a>
+        <li id="api-direct"><a href="https://github.com/matthew-asuncion/Fast-YouTube-to-MP3-Converter-API">API documentation</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <p>Simple Youtube converter to MP3 or MP4</p>
+    <div class="container">
+      <div class="form-label-group">
+        <input type="url" id="url-input" class="form-control" placeholder="Paste URL Here"></input>
+        <span>×</span>
+      </div>
+      <button class="action">&#xFFEB;</button>
+    </div>
+
+    <div class="loader">
+    Loading...
+    </div>
+
+    <div class="download-container">
+      <h3 class="download-title"></h3>
+      <iframe src="" frameborder="0" class="download-player" allowfullscreen></iframe>
+      <a href="#" class="download-thumbnail" target="blank" download>DOWNLOAD THUMBNAIL</a>
+      <div class="tabs">
+        <span class="selected">VIDEO</span>
+        <span>AUDIO</span>
+      </div>
+      <div class="download-view">
+              <div class="download-video"></div>
+              <div class="download-audio"></div>
+      </div>
+    </div>
+    <div id="about">
+      <button id="aboutbtn" onclick="about()">About me</button>
+    </div>
+  </section>
+<p id="copy">&copy;2021 Anargya</p>
+  <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+<body>
+
+</body>
+
+</html>
