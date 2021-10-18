@@ -1,7 +1,7 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fanargya-anubhawa%2Fytconverter&count_bg=%236B8FF6&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Repository+Views&edge_flat=false)](https://hits.seeyoufarm.com)
 # Youtube Converter
-Simpe and fast youtube to MP3 or MP4
+Simpe and fast youtube to MP3 or MP4. Very easy to use. No ads and popup spam!
 
 [YtConverter](https://anargya-anubhawa.github.io/ytconverter/ "YtConverter")
 
